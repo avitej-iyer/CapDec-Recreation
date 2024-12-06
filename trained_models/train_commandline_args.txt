@@ -1,0 +1,21 @@
+{
+  "data": "./data/flicker30_RN50x4_train_with_text_embeddings_not_norm.pkl",
+  "val_pt": ".data/flicker30_RN50x4_val_with_text_embeddings_not_norm.pkl",
+  "pretrain_weights": "",
+  "out_dir": "./trained_models/",
+  "add_modality_offset": false,
+  "prefix": "coco_prefix",
+  "noise_variance": 0.016,
+  "uniform_noise": false,
+  "dont_norm": false,
+  "lr": 2e-05,
+  "epochs": 10,
+  "save_every": 1,
+  "prefix_length": 40,
+  "prefix_length_clip": 40,
+  "bs": 16,
+  "only_prefix": false,
+  "num_layers": 8,
+  "is_not_rn": false,
+  "use_image_embedding_as_clipcap": false
+}
