@@ -15,7 +15,10 @@ conda activate CapDec
 1. Download either COCO, Flickr30k or Flickr8k, and place it in the ./data/ folder
 2. Download the respective annotations using the link here : [COCO and Flickr30k annotations](https://www.kaggle.com/datasets/shtvkumar/karpathy-splits)
 3. Parse the annotation to the correct format using the script parse_karpathy.py - just make sure to edit json paths inside the script.
-4. _(Optional)_ If you need to subset the data, call the file subset_gen.py as follows on the commandline : python subset_gen.py --input_file (dir. to input file) --output_dir (directory for output) --dividing_factor (integer factor by which you want to shrink data)
+4. _(Optional)_ If you need to subset the data, call the file subset_gen.py as follows on the commandline :
+```
+python subset_gen.py --input_file (dir. to input file) --output_dir (directory for output) --dividing_factor (integer factor by which you want to shrink data)
+```
 
 ## Training 
 
